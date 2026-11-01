@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="DogTime privacy policy / 개인정보처리방침"
+    />
+    <title>DogTime Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #1d1b17;
+        --muted: #655f55;
+        --gold: #bd7a14;
+        --paper: #fffaf2;
+        --line: #e9ddc9;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.65;
+      }
+      main { width: min(720px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 72px; }
+      header { border-bottom: 1px solid var(--line); padding-bottom: 24px; }
+      .brand { color: var(--gold); font-size: .875rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+      h1 { margin: 8px 0 0; font-size: clamp(2rem, 7vw, 3.2rem); line-height: 1.15; }
+      h2 { margin: 32px 0 8px; font-size: 1.2rem; }
+      p, li { font-size: 1rem; }
+      .date, .note { color: var(--muted); }
+      nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+      button {
+        border: 1px solid var(--line); border-radius: 999px; background: transparent;
+        color: var(--ink); padding: 8px 13px; font: inherit; cursor: pointer;
+      }
+      button[aria-pressed="true"] { border-color: var(--gold); background: var(--gold); color: #fff; }
+      article { display: none; }
+      article.active { display: block; }
+      footer { border-top: 1px solid var(--line); margin-top: 44px; padding-top: 20px; color: var(--muted); font-size: .9rem; }
+      a { color: #88520b; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="brand">DogTime</div>
+        <h1 id="page-title">개인정보처리방침</h1>
+        <p class="note">Public policy page for the DogTime mobile app.</p>
+        <nav aria-label="Language">
+          <button type="button" data-language="ko" aria-pressed="true">한국어</button>
+          <button type="button" data-language="en" aria-pressed="false">English</button>
+          <button type="button" data-language="ja" aria-pressed="false">日本語</button>
+          <button type="button" data-language="es" aria-pressed="false">Español</button>
+        </nav>
+      </header>
+
+      <article id="ko" class="active" lang="ko">
+        <p class="date">시행일: 2026년 10월 28일</p>
+        <p>DogTime(이하 “앱”)은 반려견 생활 기록을 기기에서 관리하기 위한 앱입니다. 이 방침은 앱이 어떤 정보를 어떤 목적으로 처리하는지 설명합니다.</p>
+        <p><strong>개발자:</strong> Musal Studio (musalhk) · <strong>문의:</strong> <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+        <h2>1. 처리하는 정보</h2>
+        <p>앱은 사용자가 직접 입력한 반려견 프로필, 활동 기록, 체중·키 기록, 선택한 프로필 사진 및 선택한 산책 위치 경로를 처리할 수 있습니다.</p>
+        <h2>2. 처리 목적</h2>
+        <ul><li>반려견의 일상·건강 기록 표시 및 수정</li><li>체중·키 변화와 기록 패턴 표시</li><li>사용자가 명시적으로 선택한 경우 산책 경로 표시</li><li>사용자가 선택한 반려견 프로필 사진 표시</li></ul>
+        <h2>3. 저장 위치와 제3자 제공</h2>
+        <p>현재 버전의 DogTime은 계정, 자체 서버 동기화, 광고 SDK, 분석 SDK를 제공하지 않습니다. 기록은 기본적으로 사용자의 기기에 로컬 저장됩니다. 개발자는 사용자의 기록을 수집·판매·제3자에게 제공하지 않습니다.</p>
+        <p>지도 기능을 선택하여 사용할 경우 Google Maps Platform 지도 타일이 표시될 수 있습니다. 이때 네트워크 연결 및 Google의 서비스 처리에는 Google의 정책이 적용될 수 있습니다.</p>
+        <p>Google Maps SDK는 서비스 운영·안정성 개선을 위해 기기/OS·SDK 버전 등의 요청 메타데이터, IP 주소, SDK 식별자, 오류·충돌 정보 및 지도 이동·확대 같은 상호작용 정보를 Google로 전송할 수 있습니다. 이 처리는 기기에만 저장하는 DogTime 활동 기록과 별개입니다. 자세한 내용은 <a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure">Google Maps SDK 데이터 처리 안내</a> 및 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 확인하세요.</p>
+        <h2>4. 보안 처리</h2>
+        <p>현재 버전은 사용자가 입력한 기록을 개발자 자체 서버로 전송하지 않습니다. 기록 접근과 삭제는 사용자의 기기 및 앱 제어에 따르며, 기기 잠금과 운영체제 보안 설정은 사용자가 관리합니다. 지도 기능을 선택한 경우에만 Google Maps Platform과의 네트워크 통신이 발생할 수 있습니다.</p>
+        <h2>5. 권한</h2>
+        <p>위치는 사용자가 산책 경로 기록에 동의한 경우에만 실제 경로 기록에 사용합니다. 사진은 반려견 프로필 사진을 선택할 때만 사용합니다. 알림은 산책 중 위치 기록 상태를 알리기 위해 사용될 수 있습니다. 권한은 기기 설정에서 언제든 변경할 수 있습니다.</p>
+        <p>위치 또는 사진 권한을 거부해도 위치 경로 또는 사진 선택을 제외한 기본 기록 기능은 사용할 수 있습니다.</p>
+        <h2>6. 보관 및 삭제</h2>
+        <p>기록은 사용자가 앱 안에서 삭제하거나 앱 데이터를 삭제·앱을 제거할 때까지 기기에 남을 수 있습니다. 사용자는 각 기록과 반려견 프로필을 앱에서 삭제할 수 있습니다.</p>
+        <h2>7. 아동</h2>
+        <p>앱은 아동을 대상으로 설계되지 않았으며, 별도의 계정 가입이나 직접적인 개인정보 수집을 하지 않습니다.</p>
+        <h2>8. 변경 및 문의</h2>
+        <p>방침이 변경되면 앱의 릴리즈 노트 또는 설정 화면을 통해 알립니다.</p>
+        <p>문의: <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+      </article>
+
+      <article id="en" lang="en">
+        <p class="date">Effective date: October 28, 2026</p>
+        <p>DogTime (the “app”) helps users manage dog-care records on their device. This policy explains what information the app processes and why.</p>
+        <p><strong>Developer:</strong> Musal Studio (musalhk) · <strong>Contact:</strong> <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+        <h2>Information processed</h2>
+        <p>The app may process dog profile information, care records, weight and height records, profile photos selected by the user, and walk location routes selected by the user.</p>
+        <h2>Purpose</h2>
+        <p>The app uses this information to display and edit care records, show weight and height changes and record patterns, display a walk route only when the user chooses it, and show a selected profile photo.</p>
+        <h2>Storage and sharing</h2>
+        <p>The current version does not provide account registration, first-party server synchronization, advertising SDKs, or analytics SDKs. Records are stored locally on the user’s device by default. The developer does not collect, sell, or share these records with third parties.</p>
+        <p>If the user chooses map functionality, Google Maps Platform map tiles may be displayed. Network use and Google’s processing for that service are governed by Google’s policies.</p>
+        <p>For service operation and stability improvements, the Google Maps SDK may send request metadata (such as device, OS, and SDK version), IP address, SDK identifiers, crash information, and map interactions such as panning and zooming to Google. This is separate from DogTime care records stored on the device. See the <a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure">Maps SDK data disclosure</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+        <h2>Security</h2>
+        <p>The current version does not transmit user-entered records to the developer’s own servers. Access to and deletion of records are controlled through the user’s device and app controls; device lock and operating-system security settings are managed by the user. Network communication with Google Maps Platform may occur only when the user chooses map functionality.</p>
+        <h2>Permissions</h2>
+        <p>Location is used only to record a walk route after the user chooses that feature and grants permission. Photos are used only when a user selects a dog profile photo. Notifications may be used to show walk-tracking status. Permissions can be changed in device settings at any time.</p>
+        <p>Core record features remain available if location or photo access is denied.</p>
+        <h2>Retention and deletion</h2>
+        <p>Records can remain on the device until the user deletes them in the app, clears app data, or uninstalls the app. Users can delete individual records and dog profiles in the app.</p>
+        <h2>Children</h2>
+        <p>The app is not designed for children and does not require account registration or directly collect personal information.</p>
+        <h2>Changes and contact</h2>
+        <p>Material policy changes will be announced in the app’s release notes or settings screen.</p>
+        <p>Contact: <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+      </article>
+
+      <article id="ja" lang="ja">
+        <p class="date">施行日: 2026年10月28日</p>
+        <p>DogTime（以下「本アプリ」）は、愛犬のお世話記録を端末内で管理するためのアプリです。本ポリシーでは、本アプリが処理する情報と目的を説明します。</p>
+        <p><strong>開発者:</strong> Musal Studio (musalhk) · <strong>お問い合わせ:</strong> <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+        <h2>処理する情報</h2>
+        <p>本アプリは、ユーザーが入力した愛犬プロフィール、お世話記録、体重・体高記録、選択したプロフィール写真、選択した散歩の位置経路を処理する場合があります。</p>
+        <h2>利用目的</h2>
+        <p>お世話記録の表示・編集、体重と体高の変化や記録パターンの表示、ユーザーが選択した場合の散歩経路の表示、選択したプロフィール写真の表示に利用します。</p>
+        <h2>保存場所と第三者提供</h2>
+        <p>現在のバージョンには、アカウント登録、独自サーバー同期、広告SDK、分析SDKはありません。記録は既定でユーザーの端末にローカル保存されます。開発者が記録を収集、販売、第三者提供することはありません。</p>
+        <p>地図機能を選択した場合はGoogle Maps Platformの地図タイルが表示されることがあります。この場合のネットワーク利用およびGoogleによる処理にはGoogleのポリシーが適用されることがあります。</p>
+        <p>Google Maps SDKは、サービスの運用と安定性向上のため、端末・OS・SDKバージョンなどのリクエスト情報、IPアドレス、SDK識別子、クラッシュ情報、地図の移動・拡大などの操作情報をGoogleへ送信する場合があります。これは端末内のDogTime記録とは別の処理です。<a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure">Maps SDKのデータ開示</a>および<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>をご確認ください。</p>
+        <h2>セキュリティ</h2>
+        <p>現在のバージョンでは、ユーザーが入力した記録を開発者自身のサーバーへ送信しません。記録へのアクセスと削除はユーザーの端末およびアプリの操作で管理され、端末ロックやOSのセキュリティ設定はユーザーが管理します。地図機能を選択した場合に限り、Google Maps Platformとのネットワーク通信が発生することがあります。</p>
+        <h2>権限</h2>
+        <p>位置情報は、ユーザーが散歩経路の記録を選択して許可した場合のみ使用します。写真はプロフィール写真を選択した場合のみ使用します。通知は散歩追跡の状態表示に使用される場合があります。権限は端末の設定からいつでも変更できます。</p>
+        <p>位置情報または写真へのアクセスを許可しなくても、基本的な記録機能は利用できます。</p>
+        <h2>保管と削除</h2>
+        <p>記録は、ユーザーがアプリ内で削除する、アプリデータを消去する、またはアプリをアンインストールするまで端末に残ることがあります。個別の記録とプロフィールはアプリ内で削除できます。</p>
+        <h2>お問い合わせ</h2>
+        <p>重要な変更はアプリのリリースノートまたは設定画面でお知らせします。</p>
+        <p>お問い合わせ: <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+      </article>
+
+      <article id="es" lang="es">
+        <p class="date">Fecha de entrada en vigor: 28 de octubre de 2026</p>
+        <p>DogTime (la “aplicación”) ayuda a gestionar registros del cuidado de perros en el dispositivo. Esta política explica qué información procesa la aplicación y por qué.</p>
+        <p><strong>Desarrollador:</strong> Musal Studio (musalhk) · <strong>Contacto:</strong> <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+        <h2>Información procesada</h2>
+        <p>La aplicación puede procesar información de perfiles de perros, registros de cuidados, registros de peso y altura, fotos de perfil seleccionadas por el usuario y rutas de paseo seleccionadas por el usuario.</p>
+        <h2>Finalidad</h2>
+        <p>La información se utiliza para mostrar y editar registros, mostrar cambios de peso y altura y patrones de registros, mostrar una ruta de paseo solo cuando el usuario la elige y mostrar una foto de perfil seleccionada.</p>
+        <h2>Almacenamiento y compartición</h2>
+        <p>La versión actual no ofrece cuentas, sincronización con servidores propios, SDK de publicidad ni SDK de análisis. Los registros se almacenan localmente en el dispositivo de forma predeterminada. El desarrollador no recopila, vende ni comparte estos registros con terceros.</p>
+        <p>Si el usuario elige la función de mapas, pueden mostrarse mosaicos de Google Maps Platform. El uso de red y el tratamiento de Google para ese servicio se rigen por las políticas de Google.</p>
+        <p>Para operar y mejorar la estabilidad del servicio, Google Maps SDK puede enviar a Google metadatos de solicitudes (dispositivo, sistema operativo y versión del SDK), dirección IP, identificadores del SDK, información de fallos e interacciones con el mapa, como desplazamiento y zoom. Este tratamiento es independiente de los registros de DogTime guardados en el dispositivo. Consulte la <a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure">declaración de datos de Maps SDK</a> y la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</p>
+        <h2>Seguridad</h2>
+        <p>La versión actual no transmite los registros introducidos por el usuario a los propios servidores del desarrollador. El acceso y la eliminación de registros se controlan desde el dispositivo y la aplicación; el usuario gestiona el bloqueo del dispositivo y la configuración de seguridad del sistema operativo. La comunicación de red con Google Maps Platform puede producirse solo cuando el usuario elige la función de mapas.</p>
+        <h2>Permisos</h2>
+        <p>La ubicación se usa solo para registrar una ruta de paseo cuando el usuario elige esa función y concede permiso. Las fotos se usan solo cuando se selecciona una foto de perfil. Las notificaciones pueden utilizarse para mostrar el estado del seguimiento del paseo. Los permisos se pueden cambiar en la configuración del dispositivo en cualquier momento.</p>
+        <p>Las funciones básicas de registro siguen disponibles si se deniega el acceso a la ubicación o a las fotos.</p>
+        <h2>Conservación y eliminación</h2>
+        <p>Los registros pueden permanecer en el dispositivo hasta que el usuario los elimine en la aplicación, borre los datos de la aplicación o la desinstale. Los usuarios pueden eliminar registros individuales y perfiles de perros en la aplicación.</p>
+        <h2>Contacto</h2>
+        <p>Los cambios importantes se anunciarán en las notas de versión o en la pantalla de ajustes de la aplicación.</p>
+        <p>Contacto: <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></p>
+      </article>
+
+      <footer>© Musal Studio · DogTime · <a href="mailto:musalhk@gmail.com">musalhk@gmail.com</a></footer>
+    </main>
+    <script>
+      const titles = { ko: '개인정보처리방침', en: 'Privacy Policy', ja: 'プライバシーポリシー', es: 'Política de privacidad' };
+      const buttons = document.querySelectorAll('[data-language]');
+      const articles = document.querySelectorAll('article');
+      function choose(language) {
+        if (!titles[language]) language = 'en';
+        document.documentElement.lang = language;
+        document.title = `DogTime ${titles[language]}`;
+        document.querySelector('#page-title').textContent = titles[language];
+        articles.forEach((article) => article.classList.toggle('active', article.id === language));
+        buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
+        history.replaceState(null, '', `#${language}`);
+      }
+      buttons.forEach((button) => button.addEventListener('click', () => choose(button.dataset.language)));
+      choose(location.hash.slice(1) || (navigator.language || 'en').slice(0, 2));
+    </script>
+  </body>
+</html>
