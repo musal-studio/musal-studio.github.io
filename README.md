@@ -2,8 +2,8 @@
 
 앱 소스와 별도로 관리하는 개발자 소개·개인정보처리방침 전용 저장소입니다.
 
-- 소개: https://musalhk-studio.github.io/
-- DogTime 정책: https://musalhk-studio.github.io/dogtime/privacy/
+- 소개: https://musal-studio.github.io/
+- DogTime 정책: https://musal-studio.github.io/dogtime/privacy/
 - 언어별 링크: `#ko`, `#en`, `#ja`, `#es`
 - 연락처: musalhk@gmail.com
 
